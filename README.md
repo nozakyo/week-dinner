@@ -1,9 +1,9 @@
 # week-dinner
 https://week-dinner.herokuapp.com/
 
+## 環境
 $ npm run build
 
-## 環境
 - EJS
 - SCSS
 - jQuery
