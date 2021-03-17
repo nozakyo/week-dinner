@@ -280,7 +280,7 @@ $(function() {
 		*/
 		show (target) {
 			if (target === 'recipe') this.$modalRecipe.addClass(ACTIVE_CLASS);
-			if (target === 'menu') this.$modalMenu.addClass(ACTIVE_CLASS);
+			if (target === 'menu') this.$modalMenu.toggleClass(ACTIVE_CLASS, !this.$modalMenu.hasClass(ACTIVE_CLASS));
 			this.$modal.addClass(ACTIVE_CLASS);
 		}
 		/**
